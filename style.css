@@ -1,0 +1,76 @@
+html,body{
+margin: 0;
+padding: 0;
+}
+body {
+    overflow-x: hidden;
+}
+
+nav{
+    letter-spacing: 4px; 
+    background-color:white;
+    position: fixed;
+    width: 97%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 25px ;
+    box-shadow: 1px 1px 5px black;
+    z-index: 45;
+    
+}
+nav a:hover{
+    background-color: pink;
+    color:black
+}
+header img {
+    width: 100%;
+
+}header h1{
+    position: relative;
+    bottom: 100px;
+    left: 1000px;
+}
+footer a:visited, a:link{
+    color: green
+}
+footer{
+    padding: 10px 10px;
+    background-color: grey;
+    text-align: center;
+}
+#Quemsomos{
+    display: flex;
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
+#Quemsomos img{
+    width: 40%;
+    margin:40px ;
+    
+}
+#Viagens{
+    display: flex;
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#Viagens img{
+    width: 40%;
+    margin:40px ;
+}
+
+#contato{
+    text-align:center;
+    margin: 0 auto;
+}
+#contato input {
+    width: 80%;
+    border-style: none;
+    border-bottom: 1px solid black;
+}
+#contato button {
+    border-style: none;
+}
+
